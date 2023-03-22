@@ -1,7 +1,100 @@
+
+
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@300&display=swap");
+
+/* Basic Styling */
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: "Roboto", sans-serif;
+}
+
+
+/* Team Section */
+
+.teamSection{
+    width: auto;
+    height: 550px;
+    background-image: url(/design-assets/bgk-team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.teamHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.teamHeader h2{
+    margin-top: 70px;
+    margin-bottom: 17px;
+    color: white;
+}
+
+.teamHeader p{
+    margin-bottom: 17px;
+    color: white;
+}
+
+.teamSeperator {
+   display: flex;
+   justify-content: center;
+}
+
+.seperator{
+    width: 51px;
+    height: 2px;
+    border: 1px solid #655b80;
+
+}
+
+
+/* .teamMembers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.teamMembers img{
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    height: 229px;
+    background-color: whitesmoke;
+}
+
+.teamMembers .memberDescript{
+    margin: 0;
+    padding: 0;
+    width: 222px;
+    height: 83px;
+    border: 1px solid #7a778d;
+    text-align: center;
+} */
+
+.teamFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teamFooter p{
+    color: white;
+    margin-top: 10px;
+}
+
+.hiringBtn{
+    width: 143px;
+    height: 43px;
+    border-radius: 1px;
+    background-color: transparent;
+    border-color: 1px solid #00e0d0;
+    border-style: solid;
+    color: #00e0d0;
+    text-transform: uppercase;
+    margin-top: 30px;
 }
