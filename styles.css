@@ -115,3 +115,74 @@ h2 {
     border-bottom: none;
     border-right: none;
 }
+#footer{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    height: 300px;
+    width: 100%;
+    background-image:url("/design-assets/bgk-footer.png"); 
+    background-size: cover;
+   }
+footer div{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+footer div div{
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+}
+footer div :nth-child(1) img{
+    width: 30px;
+}
+#oneone{
+    margin: 0%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+#onetwo{
+    margin: 0%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+footer div :nth-child(2){
+    margin: 0%;
+}
+footer div :nth-child(3){
+    margin: 0%;
+}
+footer div :nth-child(3) div{
+    display: flex;
+    flex-direction: row;
+}
+#threeone{
+    justify-content: flex-start;
+}
+#threetwo{
+    justify-content: space-between;
+}
+
+footer div :nth-child(3) img{
+    width: 30px;
+    height: 30px;
+}
+footer div p, a{
+    font-size: 9px;
+    color: white;
+}
+footer div h4{
+    color: white;
+}
+footer div div h3{
+    color: aqua;
+}
+.ourstudio{
+    width: 10px;
+    height: 13px;
+}
