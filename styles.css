@@ -1,4 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@300&display=swap');
+
+/* Basic Styling */
 
 * {
 margin: 0;
@@ -11,9 +14,8 @@ font-family: "Roboto", sans-serif;
     margin: 0%;
     padding: 0%;
     height: 300px;
-    
-
 }
+
 #our-story>div{
     display: flex;
     justify-content: center;
@@ -24,17 +26,21 @@ font-family: "Roboto", sans-serif;
     padding-bottom: 20px; 
     max-height: 200px;
 }
+
 #our-story h4{
 font-family: DM Serif;
 }
+
 #our-story p{
     margin-top: 10px;
     font-size: 9px;
 }
+
 #our-story img{
     margin-right: 40px;
     width: 200px;
 }
+
 #our-story button{
     font-weight: 700;
     font-size: 9px;
@@ -45,6 +51,7 @@ font-family: DM Serif;
     box-shadow: none;
     color: rgb(104, 242, 196);
 }
+
 #watch{
     width: 100%;
     background-image: url("/design-assets/bgk-middle.png");
@@ -55,22 +62,73 @@ font-family: DM Serif;
     align-items: center;
     color: white;
 }
+
 #play{
     margin-bottom: 20px;
     width: 50px;
 }
+
 #watchstory{
     font-size: 9px;
     font-weight: 600;
     padding: 0%;
     margin: 0%;
-
 }
+
+/* Team Section */
+
+/* .teamMembers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.teamMembers img{
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    height: 229px;
+    background-color: whitesmoke;
+}
+
+.teamMembers .memberDescript{
+    margin: 0;
+    padding: 0;
+    width: 222px;
+    height: 83px;
+    border: 1px solid #7a778d;
+    text-align: center;
+} */
+
+.teamFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teamFooter p{
+    color: white;
+    margin-top: 10px;
+}
+
+.hiringBtn{
+    width: 143px;
+    height: 43px;
+    border-radius: 1px;
+    background-color: transparent;
+    border-color: 1px solid #00e0d0;
+    border-style: solid;
+    color: #00e0d0;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
 
 
 h2 {
     font-family: 'Playfair Display', serif;
 }
+
 #expertise {
     padding: 10px;
     padding-top: 50px;
