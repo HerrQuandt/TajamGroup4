@@ -173,3 +173,119 @@ h2 {
     border-bottom: none;
     border-right: none;
 }
+#footer{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    height: 400px;
+    width: 100%;
+    background-image:url("/design-assets/bgk-footer.png"); 
+    background-size: cover;
+   }
+footer div{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    
+}
+footer div div{
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+}
+footer div :nth-child(1) img{
+    width: 30px;
+    margin-right: 10px ;
+}
+footer div :nth-child(1) p{
+    line-height: 32px;
+}
+#oneone{
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+#onetwo{
+    font-weight: bold;
+    margin-top:70px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+footer div :nth-child(2){
+    justify-content: flex-start;
+    margin: 0%;
+}
+footer div :nth-child(2) div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+footer div :nth-child(3){
+    margin: 0%;
+}
+footer div :nth-child(3) div{
+    display: flex;
+    flex-direction: row;
+}
+#threeone{
+    justify-content: flex-start;
+}
+#threeone textarea{
+    background-color: transparent;
+    border: 1px solid gray;
+    resize: none;
+    height: 35px;
+}
+#threeone textarea::placeholder{
+    font-size: smaller;
+    color: gray;
+    padding-left:0.5em;
+    padding-top: 0.5em;
+}
+#threeone button{
+    margin-left: 10px;
+    width: 60px;
+    opacity: 50%;
+}
+#threetwo{
+    justify-content: flex-start;
+    
+}
+
+footer div :nth-child(3) img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+footer div p, a{
+    font-size: 9px;
+    color: white;
+}
+footer div h6{
+    color: white;
+}
+footer div div h3{
+    color: aqua;
+    font-weight: lighter;
+}
+.ourstudio{
+    width: 15px;
+    height: 20px;
+    margin-right: 20px;
+}
+#phone{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+#copyright{
+    display: flex;
+    font-weight:bold;
+    justify-content: flex-end;
+}
