@@ -104,7 +104,17 @@ font-family: DM Serif;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.teamSeperator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.teamSeperator .seperator{
+    width: 50px;
+    height: 2px;
+    border: 1px solid #655b80;
+}
 
 .teamMembers img{
     margin: 0;
@@ -127,6 +137,7 @@ font-family: DM Serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .teamFooter p{
@@ -144,6 +155,7 @@ font-family: DM Serif;
     color: #00e0d0;
     text-transform: uppercase;
     margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 
