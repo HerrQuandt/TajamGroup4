@@ -5,3 +5,64 @@ padding: 0;
 box-sizing: border-box;
 font-family: "Roboto", sans-serif;
 }
+
+#our-story{
+    margin: 0%;
+    padding: 0%;
+    height: 300px;
+    
+
+}
+#our-story>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px; 
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 20px; 
+    max-height: 200px;
+}
+#our-story h4{
+font-family: DM Serif;
+}
+#our-story p{
+    margin-top: 10px;
+    font-size: 9px;
+}
+#our-story img{
+    margin-right: 40px;
+    width: 200px;
+}
+#our-story button{
+    font-weight: 700;
+    font-size: 9px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid rgb(104, 242, 196);
+    box-shadow: none;
+    color: rgb(104, 242, 196);
+}
+#watch{
+    width: 100%;
+    background-image: url("/design-assets/bgk-middle.png");
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#play{
+    margin-bottom: 20px;
+    width: 50px;
+}
+#watchstory{
+    font-size: 9px;
+    font-weight: 600;
+    padding: 0%;
+    margin: 0%;
+
+}
+
