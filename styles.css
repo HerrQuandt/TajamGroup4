@@ -116,21 +116,33 @@ font-family: DM Serif;
     border: 1px solid #655b80;
 }
 
-.teamMembers img{
+.gridTeamMembers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 944px;
+    margin: 47px auto 70px auto;
+}
+
+.gridItems img{
     margin: 0;
     padding: 0;
     width: 220px;
     height: 229px;
-    background-color: whitesmoke;
+    object-fit: cover;
+    /* background-color: whitesmoke; */
 }
 
-.teamMembers .memberDescript{
-    margin: 0;
-    padding: 0;
-    width: 222px;
+.gridItems .memberDescript{
+    width: 220px;
     height: 83px;
-    border: 1px solid #7a778d;
+    border: 2px solid #7a778d;
     text-align: center;
+}
+
+.memberDescript{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .teamFooter{
@@ -157,7 +169,6 @@ font-family: DM Serif;
     margin-top: 30px;
     margin-bottom: 70px;
 }
-
 
 h2 {
     font-family: 'Playfair Display', serif;
