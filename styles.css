@@ -1,8 +1,11 @@
 
 
+
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@300&display=swap');
 
 /* Basic Styling */
+
 * {
 margin: 0;
 padding: 0;
@@ -21,7 +24,6 @@ font-family: "Roboto", sans-serif;
     background-size: cover;
     background-position: center;
 }
-
 
 .teamHeader{
     display: flex;
@@ -50,7 +52,71 @@ font-family: "Roboto", sans-serif;
     height: 2px;
     border: 1px solid #655b80;
 
+#our-story{
+    margin: 0%;
+    padding: 0%;
+    height: 300px;
 }
+
+#our-story>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px; 
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 20px; 
+    max-height: 200px;
+}
+
+#our-story h4{
+font-family: DM Serif;
+}
+
+#our-story p{
+    margin-top: 10px;
+    font-size: 9px;
+}
+
+#our-story img{
+    margin-right: 40px;
+    width: 200px;
+}
+
+#our-story button{
+    font-weight: 700;
+    font-size: 9px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid rgb(104, 242, 196);
+    box-shadow: none;
+    color: rgb(104, 242, 196);
+}
+
+#watch{
+    width: 100%;
+    background-image: url("/design-assets/bgk-middle.png");
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#play{
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+#watchstory{
+    font-size: 9px;
+    font-weight: 600;
+    padding: 0%;
+    margin: 0%;
+}
+
 
 
 /* .teamMembers{
@@ -97,4 +163,53 @@ font-family: "Roboto", sans-serif;
     color: #00e0d0;
     text-transform: uppercase;
     margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+#expertise {
+    padding: 10px;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+}
+.grid-item {
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 10px;
+    font-size: small;
+}
+.grid-item:first-child {
+    border-top: none;
+    border-left: none;
+}
+.grid-item:nth-child(2) {
+    border-top: none;
+}
+.grid-item:nth-child(3) {
+    border-top: none;
+    border-right: none;
+}
+.grid-item:nth-child(4) {
+    border-bottom: none;
+    border-left: none;
+}
+.grid-item:nth-child(5) {
+    border-bottom: none;
+}
+.grid-item:last-child {
+    border-bottom: none;
+    border-right: none;
 }
