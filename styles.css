@@ -10,6 +10,7 @@ box-sizing: border-box;
 font-family: "Roboto", sans-serif;
 }
 
+/*STORY SECTION*/
 #our-story{
     margin: 0%;
     padding: 0%;
@@ -17,33 +18,28 @@ font-family: "Roboto", sans-serif;
 }
 
 #our-story>div{
+    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 150px; 
+    margin-left: 200px; 
     padding-right: 150px;
     padding-top: 100px;
     padding-bottom: 20px; 
     max-height: 200px;
 }
 
-#our-story h4{
-font-family: DM Serif;
-}
 
 #our-story p{
     margin-top: 10px;
-    font-size: 9px;
 }
 
 #our-story img{
     margin-right: 40px;
-    width: 200px;
+    width: 150px;
 }
 
 #our-story button{
-    font-weight: 700;
-    font-size: 9px;
     padding: 5px;
     margin-top: 20px;
     background-color: white;
@@ -51,7 +47,7 @@ font-family: DM Serif;
     box-shadow: none;
     color: rgb(104, 242, 196);
 }
-
+/*WATCH SECTION*/
 #watch{
     width: 100%;
     background-image: url("/design-assets/bgk-middle.png");
@@ -60,7 +56,6 @@ font-family: DM Serif;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 #play{
@@ -69,8 +64,6 @@ font-family: DM Serif;
 }
 
 #watchstory{
-    font-size: 9px;
-    font-weight: 600;
     padding: 0%;
     margin: 0%;
 }
@@ -218,6 +211,8 @@ h2 {
     border-bottom: none;
     border-right: none;
 }
+
+/*FOOTER SECTION*/
 #footer{
     padding-left: 100px;
     padding-right: 100px;
@@ -231,8 +226,8 @@ h2 {
 footer div{
     display: flex;
     flex-flow: row;
-    justify-content: flex-start;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-evenly;
     
 }
 footer div div{
@@ -244,9 +239,7 @@ footer div :nth-child(1) img{
     width: 30px;
     margin-right: 10px ;
 }
-footer div :nth-child(1) p{
-    line-height: 32px;
-}
+
 #oneone{
     margin-bottom: 20px;
     display: flex;
@@ -262,23 +255,25 @@ footer div :nth-child(1) p{
 }
 footer div :nth-child(2){
     justify-content: flex-start;
-    margin: 0%;
 }
 footer div :nth-child(2) div{
-    margin-top: 30px;
+    margin-top: 20px ;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
 }
+
 footer div :nth-child(3){
     margin: 0%;
+    display: flex;
+    justify-content: flex-start;
 }
 footer div :nth-child(3) div{
     display: flex;
-    flex-direction: row;
+   
 }
 #threeone{
+    flex-direction: row;
     justify-content: flex-start;
 }
 #threeone textarea{
@@ -299,6 +294,8 @@ footer div :nth-child(3) div{
     opacity: 50%;
 }
 #threetwo{
+    margin-top: 20px;
+    flex-direction: row;
     justify-content: flex-start;
     
 }
@@ -308,17 +305,7 @@ footer div :nth-child(3) img{
     height: 30px;
     margin-right: 10px;
 }
-footer div p, a{
-    font-size: 9px;
-    color: white;
-}
-footer div h6{
-    color: white;
-}
-footer div div h3{
-    color: aqua;
-    font-weight: lighter;
-}
+
 .ourstudio{
     width: 15px;
     height: 20px;
@@ -329,7 +316,11 @@ footer div div h3{
     height: 20px;
     margin-right: 20px;
 }
+#phonetext{
+    margin-top: 0%;
+}
 #copyright{
+    margin-top: 120px;
     display: flex;
     font-weight:bold;
     justify-content: flex-end;
