@@ -48,21 +48,25 @@ nav {
 } */
 .nav-left p {
     padding-left: 10px;
+    color: #00e0d0;
 
 }
 .nav-right ul {
     display: flex;
+    padding-top: 16px;
 }
 .nav-right ul li {
     padding: 10px;
     list-style: none;
 }
+.nav-right ul li a:hover {
+    color: #00e0d0;
+}
 
 #home {
-    /* text-align: center; */
+    text-align: center;
     height: 50%;
     /* padding: 180px; */
-    border: solid 1px black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,23 +74,29 @@ nav {
     
 }
 #home h1 {
-    border: solid 1px black;
 }
 .littleworm {
     /* padding-top: 3px;
     padding-bottom: 3px; */
     color: #00e0d0;
-    border: solid 1px black;
     justify-content: center;
 }
 #home p {
     /* padding-top: 55px;
     padding-bottom: 55px; */
+    width: 1000px;
     margin: 7px;
-    border: solid 1px black;
+    line-height: 25px;
 }
 .learnMoreButton {
-    border: solid 1px black;
+    font-weight: 700;
+    font-size: 9px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(104, 242, 196);
+    box-shadow: none;
+    color: rgb(104, 242, 196);
 }
 
 /*STORY SECTION*/
