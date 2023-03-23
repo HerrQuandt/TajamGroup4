@@ -168,21 +168,20 @@ font-family: DM Serif;
     margin-bottom: 16px;
 }
 
-.teamMembers{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.teamSeperator{
+.teamSeparator{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.teamSeperator .seperator{
+.teamSeparator .separator{
     width: 50px;
     height: 2px;
     border: 1px solid #655b80;
+}
+.teamMembers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .gridTeamMembers{
@@ -218,7 +217,6 @@ font-family: DM Serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 70px;
 }
 
 .teamFooter p{
@@ -287,6 +285,47 @@ h2 {
     border-bottom: none;
     border-right: none;
 }
+
+/* Contact Client Section */
+
+.contactSection{
+    width: 100%;
+    height: 686px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.rowContact{
+    height: 513px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+}
+
+.contactLeft{
+
+    border: 1px solid yellow;
+}
+
+.contactRight{
+    margin-left: 100px;
+    border: 1px solid orange;
+}
+
+.contactForm{
+    width: 463px;
+    margin-top: 36px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contactFormInput{
+    padding: 20px 17px;
+    display: block;
+}
+
 #footer{
     padding-left: 100px;
     padding-right: 100px;
