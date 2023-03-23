@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@300;700&display=swap');
 
 /* Basic Styling */
 
@@ -8,8 +7,89 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: "Roboto", sans-serif;
+font-size: 12px;
+}
+h1 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+h3 {
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+}
+/*Navbar Styling*/
+.navBarHero {
+    height: 670px;
+    background-image: url(design-assets/bgk-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+.nav-left {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+/*.nav-left img {
+} */
+.nav-left p {
+    padding-left: 10px;
+
+}
+.nav-right ul {
+    display: flex;
+}
+.nav-right ul li {
+    padding: 10px;
+    list-style: none;
 }
 
+#home {
+    /* text-align: center; */
+    height: 50%;
+    /* padding: 180px; */
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#home h1 {
+    border: solid 1px black;
+}
+.littleworm {
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+    color: #00e0d0;
+    border: solid 1px black;
+    justify-content: center;
+}
+#home p {
+    /* padding-top: 55px;
+    padding-bottom: 55px; */
+    margin: 7px;
+    border: solid 1px black;
+}
+.learnMoreButton {
+    border: solid 1px black;
+}
+
+/*STORY SECTION*/
 #our-story{
     margin: 0%;
     padding: 0%;
@@ -17,33 +97,28 @@ font-family: "Roboto", sans-serif;
 }
 
 #our-story>div{
+    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 150px; 
+    margin-left: 200px; 
     padding-right: 150px;
     padding-top: 100px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;  
     max-height: 200px;
 }
 
-#our-story h4{
-font-family: DM Serif;
-}
 
 #our-story p{
     margin-top: 10px;
-    font-size: 9px;
 }
 
 #our-story img{
     margin-right: 40px;
-    width: 200px;
+    width: 150px;
 }
 
 #our-story button{
-    font-weight: 700;
-    font-size: 9px;
     padding: 5px;
     margin-top: 20px;
     background-color: white;
@@ -51,16 +126,15 @@ font-family: DM Serif;
     box-shadow: none;
     color: rgb(104, 242, 196);
 }
-
+/*WATCH SECTION*/
 #watch{
     width: 100%;
-    background-image: url("/design-assets/bgk-middle.png");
+    background-image: url("design-assets/bgk-middle.png");
     height: 500px;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 #play{
@@ -69,8 +143,6 @@ font-family: DM Serif;
 }
 
 #watchstory{
-    font-size: 9px;
-    font-weight: 600;
     padding: 0%;
     margin: 0%;
 }
@@ -78,7 +150,7 @@ font-family: DM Serif;
 /* Team Section */
 
 .teamSection{
-    background:  url(/design-assets/bgk-team.png);
+    background:  url(design-assets/bgk-team.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -99,21 +171,20 @@ font-family: DM Serif;
     margin-bottom: 16px;
 }
 
-.teamMembers{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.teamSeperator{
+.teamSeparator{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.teamSeperator .seperator{
+.teamSeparator .separator{
     width: 50px;
     height: 2px;
     border: 1px solid #655b80;
+}
+.teamMembers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .gridTeamMembers{
@@ -149,7 +220,6 @@ font-family: DM Serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 70px;
 }
 
 .teamFooter p{
@@ -169,11 +239,6 @@ font-family: DM Serif;
     margin-top: 30px;
     margin-bottom: 70px;
 }
-
-h2 {
-    font-family: 'Playfair Display', serif;
-}
-
 #expertise {
     padding: 10px;
     padding-top: 50px;
@@ -183,7 +248,7 @@ h2 {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 .grid-item {
@@ -218,21 +283,109 @@ h2 {
     border-bottom: none;
     border-right: none;
 }
-#footer{
+.line-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.line-bar .expertise-line {
+    width: 50px;
+    height: 2px;
+    border: 1px solid lightgrey;
+}
+
+/* Contact Client Section */
+
+.contactSection{
+    width: 100%;
+    height: 686px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.rowContact{
+    height: 513px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactRight{
+    width: 22%;
+    margin-left: 100px;
+}
+
+.flexClientImageContainer{
+    height: 480px;
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clientsLeft, .clientsRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clientImg{
+    display: block;
+    width: 163px;
+    height: 22;
+    object-fit: contain;
+}
+
+.contactForm{
+    width: 463px;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contactFormInput{
+    border-color: #e5e5e5;
+    border-style: solid;
+    padding: 20px 17px;
+    display: block;
+}
+
+textarea{
+    height: 191px;
+    padding: 20px 17px;
+    display: block;
+    border-color: #e5e5e5;
+    resize: none;
+}
+
+.submitBtn{
+    width: 123px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 5px;   
+    background-color: white;
+    border: 1px solid rgb(104, 242, 196);
+    box-shadow: none;
+    color: rgb(104, 242, 196);
+}
+
+#footer {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
     padding-bottom: 20px;
     height: 400px;
     width: 100%;
-    background-image:url("/design-assets/bgk-footer.png"); 
+    background-image:url("design-assets/bgk-footer.png"); 
     background-size: cover;
-   }
+}
 footer div{
     display: flex;
     flex-flow: row;
-    justify-content: flex-start;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-evenly;
     
 }
 footer div div{
@@ -244,9 +397,7 @@ footer div :nth-child(1) img{
     width: 30px;
     margin-right: 10px ;
 }
-footer div :nth-child(1) p{
-    line-height: 32px;
-}
+
 #oneone{
     margin-bottom: 20px;
     display: flex;
@@ -262,23 +413,25 @@ footer div :nth-child(1) p{
 }
 footer div :nth-child(2){
     justify-content: flex-start;
-    margin: 0%;
 }
 footer div :nth-child(2) div{
-    margin-top: 30px;
+    margin-top: 20px ;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
 }
+
 footer div :nth-child(3){
     margin: 0%;
+    display: flex;
+    justify-content: flex-start;
 }
 footer div :nth-child(3) div{
     display: flex;
-    flex-direction: row;
+   
 }
 #threeone{
+    flex-direction: row;
     justify-content: flex-start;
 }
 #threeone textarea{
@@ -299,6 +452,8 @@ footer div :nth-child(3) div{
     opacity: 50%;
 }
 #threetwo{
+    margin-top: 20px;
+    flex-direction: row;
     justify-content: flex-start;
     
 }
@@ -309,7 +464,7 @@ footer div :nth-child(3) img{
     margin-right: 10px;
 }
 footer div p, a{
-    font-size: 9px;
+/*    font-size: 9px; */
     color: white;
 }
 footer div h6{
@@ -329,7 +484,11 @@ footer div div h3{
     height: 20px;
     margin-right: 20px;
 }
+#phonetext{
+    margin-top: 0%;
+}
 #copyright{
+    margin-top: 120px;
     display: flex;
     font-weight:bold;
     justify-content: flex-end;
