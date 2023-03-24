@@ -97,22 +97,19 @@ nav {
 
 #our-story div{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 150px; 
-    padding-right: 150px;
-    padding-top: 100px;
-    padding-bottom: 20px;  
-    max-height: 200px;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+#our-story div :nth-child(2){
+    width: 500px;
+    display: flex;
+    flex-flow: column;
 }
 
-#our-story h4{
-font-family: DM Serif;
-}
 
 #our-story p{
     margin-top: 10px;
-/*    font-size: 9px; */
 }
 
 #our-story img{
@@ -121,8 +118,8 @@ font-family: DM Serif;
 }
 
 #our-story button{
-/*    font-weight: 700;
-    font-size: 9px; */
+    width: 100px;
+    border-radius: 2px;
     padding: 5px;
     margin-top: 20px;
     background-color: white;
@@ -134,6 +131,9 @@ font-family: DM Serif;
 #watch{
     width: 100%;
     background-image: url("design-assets/bgk-middle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 500px;
     display: flex;
     flex-flow: column;
@@ -379,8 +379,8 @@ textarea{
 }
 
 #footer {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
     padding-top: 50px;
     padding-bottom: 20px;
     height: 400px;
@@ -413,6 +413,10 @@ footer div :nth-child(1) p{
     flex-flow: row;
     justify-content: flex-start;
 }
+#oneone h3{
+    font-size: 30px;
+    font-weight: lighter;
+}
 #onetwo{
     font-weight: bold;
     margin-top:70px;
@@ -441,17 +445,21 @@ footer div :nth-child(3) div{
 #threeone{
     justify-content: flex-start;
 }
-#threeone textarea{
+#threeone input{
+    color: gray;
     background-color: transparent;
     border: 1px solid gray;
     resize: none;
     height: 35px;
+    padding: 6px;
+    width: 200px;
 }
+
 #threeone textarea::placeholder{
-    font-size: smaller;
+    font-size: 3px;
     color: gray;
-    padding-left:0.5em;
-    padding-top: 0.5em;
+    padding-left:0.2em;
+    padding-top: 0.2em;
 }
 #threeone button{
     margin-left: 10px;
