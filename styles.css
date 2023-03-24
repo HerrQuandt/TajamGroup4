@@ -75,10 +75,10 @@ nav {
 }
 #home h1 {
 }
-.littleworm {
+#home .line-bar {
     /* padding-top: 3px;
     padding-bottom: 3px; */
-    color: #00e0d0;
+    color: #655B80;
     justify-content: center;
 }
 #home p {
