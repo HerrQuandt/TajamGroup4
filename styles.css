@@ -48,21 +48,25 @@ nav {
 } */
 .nav-left p {
     padding-left: 10px;
+    color: #00e0d0;
 
 }
 .nav-right ul {
     display: flex;
+    padding-top: 16px;
 }
 .nav-right ul li {
     padding: 10px;
     list-style: none;
 }
+.nav-right ul li a:hover {
+    color: #00e0d0;
+}
 
 #home {
-    /* text-align: center; */
+    text-align: center;
     height: 50%;
     /* padding: 180px; */
-    border: solid 1px black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,32 +74,40 @@ nav {
     
 }
 #home h1 {
-    border: solid 1px black;
 }
-.littleworm {
+#home .line-bar {
     /* padding-top: 3px;
     padding-bottom: 3px; */
-    color: #00e0d0;
-    border: solid 1px black;
+    color: #655B80;
     justify-content: center;
 }
 #home p {
     /* padding-top: 55px;
     padding-bottom: 55px; */
+    width: 1000px;
     margin: 7px;
-    border: solid 1px black;
+    line-height: 25px;
 }
 .learnMoreButton {
-    border: solid 1px black;
+    font-weight: 700;
+    font-size: 9px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(104, 242, 196);
+    box-shadow: none;
+    color: rgb(104, 242, 196);
 }
 
+/*STORY SECTION*/
 #our-story{
     margin: 0%;
     padding: 0%;
     height: 300px;
 }
 
-#our-story div{
+#our-story>div{
+    width: 1000px;
     display: flex;
     flex-direction: row;
     margin-top: 50px;
@@ -114,7 +126,7 @@ nav {
 
 #our-story img{
     margin-right: 40px;
-    width: 200px;
+    width: 150px;
 }
 
 #our-story button{
@@ -127,7 +139,7 @@ nav {
     box-shadow: none;
     color: rgb(104, 242, 196);
 }
-
+/*WATCH SECTION*/
 #watch{
     width: 100%;
     background-image: url("design-assets/bgk-middle.png");
@@ -139,7 +151,6 @@ nav {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 #play{
@@ -148,8 +159,6 @@ nav {
 }
 
 #watchstory{
-/*    font-size: 9px; */
-    font-weight: 600; 
     padding: 0%;
     margin: 0%;
 }
@@ -391,8 +400,8 @@ textarea{
 footer div{
     display: flex;
     flex-flow: row;
-    justify-content: flex-start;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-evenly;
     
 }
 footer div div{
@@ -404,9 +413,7 @@ footer div :nth-child(1) img{
     width: 30px;
     margin-right: 10px ;
 }
-footer div :nth-child(1) p{
-    line-height: 32px;
-}
+
 #oneone{
     margin-bottom: 20px;
     display: flex;
@@ -426,23 +433,25 @@ footer div :nth-child(1) p{
 }
 footer div :nth-child(2){
     justify-content: flex-start;
-    margin: 0%;
 }
 footer div :nth-child(2) div{
-    margin-top: 30px;
+    margin-top: 20px ;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
 }
+
 footer div :nth-child(3){
     margin: 0%;
+    display: flex;
+    justify-content: flex-start;
 }
 footer div :nth-child(3) div{
     display: flex;
-    flex-direction: row;
+   
 }
 #threeone{
+    flex-direction: row;
     justify-content: flex-start;
 }
 #threeone input{
@@ -467,6 +476,8 @@ footer div :nth-child(3) div{
     opacity: 50%;
 }
 #threetwo{
+    margin-top: 20px;
+    flex-direction: row;
     justify-content: flex-start;
     
 }
@@ -497,7 +508,11 @@ footer div div h3{
     height: 20px;
     margin-right: 20px;
 }
+#phonetext{
+    margin-top: 0%;
+}
 #copyright{
+    margin-top: 120px;
     display: flex;
     font-weight:bold;
     justify-content: flex-end;
