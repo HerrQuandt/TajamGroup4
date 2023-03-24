@@ -115,6 +115,8 @@ nav {
     width: 1000px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
     margin-left: 10%;
 }
@@ -471,6 +473,7 @@ footer div :nth-child(3) div{
    
 }
 #threeone{
+    margin-top: 20px;
     flex-direction: row;
     justify-content: flex-start;
 }
