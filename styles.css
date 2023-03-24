@@ -78,8 +78,7 @@ nav {
     justify-content: center;
     
 }
-#home h1 {
-}
+
 #home .line-bar {
     /* padding-top: 3px;
     padding-bottom: 3px; */
@@ -166,6 +165,8 @@ nav {
 }
 
 #watchstory{
+    color: #fff;
+    font-size: 12px;
     padding: 0%;
     margin: 0%;
 }
